@@ -6,18 +6,18 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
+  github: "https://github.com/pengyz"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
+  qq: "530948159"
   #weixin: "#"
-  #jianshu: "#"
+  jianshu: "http://www.jianshu.com/u/7b5906c282f6"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:orangekbb@gmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: http://o8fsr2qhz.bkt.clouddn.com/static/images/avata.png
 
 #是否开启分享
 share_jia: true
@@ -81,7 +81,7 @@ share_jia: true
 duoshuo: false
 
 #2、网易云跟帖
-wangyiyun: false
+wangyiyun: true
 
 #3、畅言
 changyan_appid: false
@@ -116,15 +116,10 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
-friends:
+friends: 
   友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 路漫漫其修远兮<br>吾将上下而求索<br>
