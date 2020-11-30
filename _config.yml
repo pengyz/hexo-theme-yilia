@@ -2,7 +2,9 @@
 
 menu:
   主页: /
+  分类: /categories
   随笔: /tags/随笔/
+  归档:  /archives/index.html
 
 # SubNav
 subnav:
@@ -10,14 +12,14 @@ subnav:
   #weibo: "#"
   #rss: "#"
   #zhihu: "#"
-  qq: "530948159"
+  # qq: "530948159"
   #weixin: "#"
   jianshu: "http://www.jianshu.com/u/7b5906c282f6"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  mail: "mailto:orangekbb@gmail.com"
+  mail: "mailto:530948159@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -33,9 +35,11 @@ root: /
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+# excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
+
+fancybox: true
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
@@ -53,12 +57,11 @@ weixin:
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
-toc_empty_wording: '目录，不存在的…'
-
+toc_empty_wording: '目录是不可能有目录的'
 # 是否有快速回到顶部的按钮
 top: true
 
